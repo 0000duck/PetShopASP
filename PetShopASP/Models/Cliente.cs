@@ -12,7 +12,7 @@ namespace PetShopASP.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        [StringLength(40)]
+        [StringLength(80)]
         [Required(ErrorMessage = "Campo Obrigratório")]
         public string Nome { get; set; }
         [StringLength(200)]
